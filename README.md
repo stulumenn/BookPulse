@@ -17,7 +17,7 @@ Analizlerde tanımlayıcı istatistikler, Pareto analizi, RFM müşteri segmenta
 
 ## Proje Bağlantıları
 
-- **Canlı Uygulama:** https://bookpulse-4rkzhnlm8tjhaua7das4en.streamlit.app
+- **Canlı Uygulama:** https://[bookpulse-4rkzhnlm8tjhaua7das4en.streamlit.app](https://bookpulse-orgsvjvdfj8lzmttrpfmyn.streamlit.app)
 - **GitHub:** https://github.com/stulumenn/BookPulse
 
 ## Yerelde Çalıştırma
