@@ -1,0 +1,38 @@
+{
+ "train": "2020-01-01..2020-06-30",
+ "validation": "2020-07-01..2020-09-30",
+ "n_products": 150,
+ "seed": 7,
+ "results": [
+  {
+   "Aday": "ekibin ilk modeli (v1)",
+   "Doğrulama İsabet@10 (%)": 7.33
+  },
+  {
+   "Aday": "eşit",
+   "Doğrulama İsabet@10 (%)": 7.6
+  },
+  {
+   "Aday": "kategori ağırlıklı",
+   "Doğrulama İsabet@10 (%)": 7.0
+  },
+  {
+   "Aday": "sıklık ağırlıklı",
+   "Doğrulama İsabet@10 (%)": 7.93
+  },
+  {
+   "Aday": "benzer ürün %25",
+   "Doğrulama İsabet@10 (%)": 8.4
+  },
+  {
+   "Aday": "benzer ürün %35 (kullanılan)",
+   "Doğrulama İsabet@10 (%)": 8.07
+  },
+  {
+   "Aday": "benzer ürün %50",
+   "Doğrulama İsabet@10 (%)": 8.27
+  }
+ ],
+ "best": "benzer ürün %25",
+ "note": "Benzer ürün ağırlıklı üç aday arasındaki fark örneklem gürültüsü düzeyinde; ortadaki %35 kullanıldı."
+}

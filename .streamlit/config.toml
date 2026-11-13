@@ -1,0 +1,9 @@
+# BookPulse teması: bilgisayar koyu modda olsa bile açık tema kullanılır
+[theme]
+base = "light"
+primaryColor = "#5B5FE3"
+backgroundColor = "#F6F7FB"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1E2235"
+font = "sans serif"
+

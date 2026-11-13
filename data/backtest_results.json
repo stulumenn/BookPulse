@@ -1,0 +1,61 @@
+{
+ "cutoff": "2020-09-30",
+ "n_products": 300,
+ "seed": 42,
+ "weights": {
+  "category_qty": 0.15,
+  "category_share": 0.1,
+  "frequency": 0.2,
+  "diversity": 0.1,
+  "similar_items": 0.35,
+  "recency": 0.1
+ },
+ "v1_weights": {
+  "category_qty": 0.5,
+  "category_orders": 0.3,
+  "category_recency": 0.2
+ },
+ "note": "Ağırlıklar Oca–Haz → Tem–Eyl doğrulama penceresinde seçildi; sonuç Oca–Eyl → Eki–Ara testinden.",
+ "table": [
+  {
+   "Model": "Sıradaki 10 Arama v2",
+   "Precision@10_%": 13.1,
+   "Hit_Rate_%": 66.67,
+   "Hits": 393
+  },
+  {
+   "Model": "v1 (ekibin ilk modeli)",
+   "Precision@10_%": 10.43,
+   "Hit_Rate_%": 63.67,
+   "Hits": 313
+  },
+  {
+   "Model": "Rastgele kategori müşterisi",
+   "Precision@10_%": 2.13,
+   "Hit_Rate_%": 17.67,
+   "Hits": 64
+  }
+ ],
+ "priority": [
+  {
+   "Öncelik": "Geri Kazanım Araması",
+   "İsabet %": 0.0,
+   "Öneri": 23
+  },
+  {
+   "Öncelik": "Hemen Ara",
+   "İsabet %": 30.0,
+   "Öneri": 80
+  },
+  {
+   "Öncelik": "Takip Et",
+   "İsabet %": 11.9,
+   "Öneri": 2726
+  },
+  {
+   "Öncelik": "Teklif Sun",
+   "İsabet %": 26.3,
+   "Öneri": 171
+  }
+ ]
+}
